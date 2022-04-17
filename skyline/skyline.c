@@ -116,7 +116,7 @@ int main()
         building[count + 1].start = FALSE;
         building[count + 1].y = building[count].y;
         
-        //limite de 10.000 no x e y
+        //limite de 5.000 no x e y
         if(building[count].x > MAX * 2 || building[count].y > MAX*2 || building[count + 1].x > MAX * 2 || building[count + 1].y > MAX*2 ) break;
         
         count+=2;
